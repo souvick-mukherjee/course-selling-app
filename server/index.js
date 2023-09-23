@@ -12,7 +12,7 @@ app.use(express.json());
 app.use('/admin',adminRouter);
 app.use('/user',userRouter);
 
-mongoose.connect('mongodb+srv://souvick-mukherjee:mongoSouvick87@cluster0.1jcmfrt.mongodb.net/courses');
+mongoose.connect('mongodb://localhost:27017/courses');
 
 app.listen(3000,()=>{
 console.log('Server running on port 3000')
