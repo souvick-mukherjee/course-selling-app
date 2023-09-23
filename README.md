@@ -2,3 +2,4 @@
 - Frontend written using ReactJS
 - Backend written using ExpressJS
 - This app uses a MongoDB database
+# [Work in progress]
